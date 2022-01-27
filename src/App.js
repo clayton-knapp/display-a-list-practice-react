@@ -10,6 +10,9 @@ import AmpsList from './AmpsList';
 import { ampsAndSpeakers } from './data-files/amps-speakers-data.js';
 import AmpsSpeakersList from './AmpsSpeakersList.js';
 
+import { ampsAndPlayers } from './data-files/amps-players-data.js';
+import AmpsPlayersList from './AmpsPlayersList';
+
 
 
 function App() {
@@ -22,10 +25,7 @@ function App() {
       <GuitarNamesList guitarNames = {guitarNames}/>
       <AmpsList amps = {amps}/>
       <AmpsSpeakersList ampsAndSpeakers = {ampsAndSpeakers} />
-      
-
-
-
+      <AmpsPlayersList ampsAndPlayers = {ampsAndPlayers} />
     </div>
   );
 }

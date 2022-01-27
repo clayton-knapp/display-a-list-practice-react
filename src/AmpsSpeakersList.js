@@ -4,7 +4,7 @@ import AmpSpeakerItem from './AmpSpeakerItem';
 
 export default function AmpsSpeakersList(props) {
 
-  console.log(props);
+
   return <div>
     <h2>Amps and Speakers:</h2>
     <div className='amps-speakers-list'>

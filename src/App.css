@@ -87,3 +87,17 @@
   margin: 10px;
   padding: 10px;
 }
+
+.amps-players-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.player-item {
+  border: red dotted 1px;
+  margin: 5px;
+  border-radius: 5px;
+}
