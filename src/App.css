@@ -54,6 +54,11 @@
   width: 250px;
   padding: 20px;
   margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .amp-list {
@@ -61,4 +66,24 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.amps-speakers-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.speaker img {
+  width: 100px;
+}
+
+.speaker {
+  border: 1px red dotted;
+  border-radius: 10px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
 }

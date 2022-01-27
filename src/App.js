@@ -7,6 +7,9 @@ import GuitarNamesList from './GuitarNamesList.js';
 import { amps } from './data-files/amps-data.js';
 import AmpsList from './AmpsList';
 
+import { ampsAndSpeakers } from './data-files/amps-speakers-data.js';
+import AmpsSpeakersList from './AmpsSpeakersList.js';
+
 
 
 function App() {
@@ -18,6 +21,8 @@ function App() {
       Render all your lists here. Pass the arrays as props.
       <GuitarNamesList guitarNames = {guitarNames}/>
       <AmpsList amps = {amps}/>
+      <AmpsSpeakersList ampsAndSpeakers = {ampsAndSpeakers} />
+      
 
 
 
