@@ -76,11 +76,11 @@
   flex-wrap: wrap;
 }
 
-.speaker img {
+.speaker-item img {
   width: 100px;
 }
 
-.speaker {
+.speaker-item {
   border: 1px red dotted;
   border-radius: 10px;
   width: 150px;

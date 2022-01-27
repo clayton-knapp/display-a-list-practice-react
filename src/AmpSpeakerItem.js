@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SpeakerItem from './SpeakerItem';
+
 export default function AmpSpeakerItem({ make, model, img_url, speaker }) {
 
 
@@ -7,10 +9,7 @@ export default function AmpSpeakerItem({ make, model, img_url, speaker }) {
   return <div className='amp-item'>
     <h3>{make} {model}</h3>
     <img src={img_url}/>
-    <div className='speaker'>
-      <h4>{speaker.make} {speaker.model}</h4>
-      <img src={speaker.img_url} />
-    </div>
+    <SpeakerItem speaker={speaker}/>
   </div>;
 }
 
