@@ -1,0 +1,1 @@
+export const guitarNames = ['Les Paul', 'SG', 'Jazzmaster', 'Stratocaster'];

@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-// import your arrays here
+// import your arrays here (and components)
+import { guitarNames } from './data-files/guitar-names-data.js';
+import GuitarNamesList from './GuitarNamesList.js';
+
+
 
 function App() {
+
+
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      Render all your lists here. Pass the arrays as props.
+      <GuitarNamesList guitarNames = {guitarNames}/>
+
+
+
     </div>
   );
 }
